@@ -1,0 +1,385 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+header nav{
+    background: whitesmoke;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    align-items: center;
+    position: fixed;
+    z-index: 888;
+    padding: 3px 20px 5px 20px;
+   
+   
+}
+.logo{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 15px;
+    text-decoration: none;
+    color: blue;
+    transition: .5s;
+}
+.logo:hover{
+    font-size: 40px;
+    border: 3px solid rgba(0, 0, 255, 0.692);
+    border-radius: 15px;
+    background: rgba(137, 43, 226, 0.432);
+}
+header nav ul li , a{
+    font-size: 25px;
+    font-weight: 600;
+    list-style: none;
+    text-transform: capitalize;
+    text-decoration: none;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    margin: 10px;
+    /* margin-right: 30px; */
+    
+    color: blue;
+    transition: .5s;
+
+}
+header nav ul li , a:hover{
+    font-size: 30px;
+
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: #000;
+
+}
+main .text{
+    padding-left:100px ;
+    margin-top: 80px;
+    padding-top: 80px;
+    
+}
+main .text span{
+    display: inline-block;
+    color: white ;    
+    text-transform: capitalize;
+    padding-top: 40px;   
+    font-size: 1.3em;
+}
+main .text h2{
+    color: blue;
+    font-size: 1.9em;
+    text-transform: capitalize;
+    margin-top: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+}
+main .text p{
+    color: white;
+    font-size: 1.3em;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+main .text button{
+    background: blue;
+    color: white;
+    width: 140px;
+    height: 50px;
+    margin: 20px 20px 20px 0;
+    font-weight: 400;
+    font-size: 1em;
+    border-radius: 15px;
+    transition: .7s;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    
+}
+main .text button:hover{
+    font-size: 1.1em;
+    background: rgb(8, 8, 119);
+    color: white;
+    cursor: pointer;
+
+}
+.social_links a{
+    color: white;
+    
+}
+main .photo{
+    width: 400px;
+    height: 500px;
+    margin: 10px 200px;
+    padding-top: 20px;
+}
+main .photo img{
+    width: 400px;
+    height: 500px;
+    padding-top: 50px;
+    border: none   ;
+}
+.cards{
+    width: 100%;
+
+}
+#service h2{
+    color: blue;
+    text-align: center;
+    font-weight: 800;
+    align-items: center;
+    margin: 40px auto;
+    text-transform: capitalize;
+    font-size: 2.2em;
+
+}
+#service .content{
+    
+    min-height: 150px;
+    margin: 10px 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    
+}
+#service .content .card{
+    background:whitesmoke;
+    box-shadow: 0 5px 25px rgb(1 1 1 /15%);
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+    padding: 10px 30px;
+    margin: 20px;
+    transition: .5s;
+
+}
+#service .content .card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#service .content .card .icons {
+    font-size: 3.4em;   
+    color: blue;
+    text-align: center;
+    
+}
+#service .content .card .icons i{
+    width: 60px;
+    height: 60px;
+}
+#service .content .card .info h3{
+    color: blue;
+    padding: 20px auto;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 20px auto;
+    text-transform: capitalize;
+
+}
+.project{
+    background: #000;
+}
+ .project h2{
+    color: blue;
+    text-align: center;
+    font-weight: 800;
+    align-items: center;
+    margin: 40px auto;
+    text-transform: capitalize;
+    font-size: 2.2em;
+
+}
+
+#projects  {
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    margin: 5px 20px;
+    transition: .5s;
+
+    
+
+}
+#projects .imgs {
+    width: 300px;
+    padding: 10px 10px;
+    background: rgba(255, 255, 255, 0.877);
+    margin: 20px;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 30px;
+    transition: .5s;
+}
+#projects .imgs:hover{
+    transform: scale(1.1);
+}
+#projects .imgs:hover .immg{
+    opacity: .9;
+}
+#projects .imgs .img1 img{
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    margin-bottom: 20px;
+    
+    padding: 10px;
+
+}
+#projects .imgs .info2 p{
+    font-size: 1.3em;
+}
+#projects .imgs .info2 a{
+    font-size: 1.1em;
+}
+.contact h2{
+    color: blue;
+    text-align: center;
+    font-weight: 800;
+    align-items: center;
+    margin: 40px auto;
+    text-transform: capitalize;
+    font-size: 2.2em;
+
+}
+
+/* ================================ */
+#contact .content{
+    
+    min-height: 150px;
+    margin: 10px auto;
+    padding: 50px auto;
+    display: flex;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    
+}
+#contact .content .card{
+    background:whitesmoke;
+    box-shadow: 0 5px 25px rgb(1 1 1 /15%);
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    padding: 10px 30px;
+    margin: 20px;
+    transition: .5s;
+
+}
+#contact .content .card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#contact .content .card .icons {
+    font-size: 3.4em;   
+    color: blue;
+    text-align: center;
+    
+}
+#contact .content .card .icons i{
+    width: 60px;
+    height: 60px;
+}
+
+#contact .content .card .info h3{
+    color: black;
+    padding: 20px auto;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 20px auto;
+    text-transform: capitalize;
+
+}
+#contact .content .card .info p{
+    font-weight: 700;
+    display: inline-block;
+    margin: 10px auto;
+}
+.footer{
+    background: #000;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer p{
+    color: white;
+    font-weight: 800;
+    font-size: 1.3em;
+    padding: 10px 10px ;
+}
+.footer p span{
+    color: blue ;
+}
+.footer .social_links a{
+    color: white;
+   padding: 10px;
+    
+}
+
+/* ========================== */
+
+@media (max-width:1023px){
+    nav{
+        padding: 12px 20px;
+    }
+    header nav{
+        background: whitesmoke;
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+        align-items: center;
+       
+       
+        padding: 3px 20px 5px 20px;
+       
+       
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
